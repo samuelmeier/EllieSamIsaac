@@ -1,0 +1,100 @@
+<html lang="en">
+<head>
+   <title>E.L.L.I.E.S.A.M.I.S.A.A.C</title>
+   <meta charset="utf-8">
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="css/base.css">
+   <link href="https://fonts.googleapis.com/css?family=Alex+Brush" rel="stylesheet">
+</head>
+<body background="img/wall.jpg">
+   
+   <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js'></script>
+
+
+   <div id="container">
+      <div id="leftColumn">
+         <div id="elliesamisaac">
+            <img src="img/elliesamisaac.png"></img>
+         </div>
+         <img id="leftChain" src="img/chain.png" width="40px"></img>
+         <img id="rightChain" src="img/chain.png" width="40px"></img>
+         <div class="contentbox">
+            <img src="img/nut.png" class="nut"></img>
+            <img src="img/nut.png" class="nut"id="toprightnut"></img>
+            <img src="img/nut.png" class="nut"id="bottomleftnut"></img>
+            <img src="img/nut.png" class="nut"id="bottomrightnut"></img>
+         </div>
+         <img id="leftChain" src="img/chain.png" width="40px"></img>
+         <img id="rightChain" src="img/chain.png" width="40px"></img>
+         <div class="contentbox">
+            <img src="img/nut.png" class="nut"></img>
+            <img src="img/nut.png" class="nut"id="toprightnut"></img>
+            <img src="img/nut.png" class="nut"id="bottomleftnut"></img>
+            <img src="img/nut.png" class="nut"id="bottomrightnut"></img>
+         </div>
+         <img id="leftChain" src="img/chain.png" width="40px"></img>
+         <img id="rightChain" src="img/chain.png" width="40px"></img>
+         <div class="contentbox">
+            <img src="img/nut.png" class="nut"></img>
+            <img src="img/nut.png" class="nut"id="toprightnut"></img>
+            <img src="img/nut.png" class="nut"id="bottomleftnut"></img>
+            <img src="img/nut.png" class="nut"id="bottomrightnut"></img>
+         </div>
+         <img id="leftChain" src="img/chain.png" width="40px"></img>
+         <img id="rightChain" src="img/chain.png" width="40px"></img>
+         <div class="contentbox">
+            <img src="img/nut.png" class="nut"></img>
+            <img src="img/nut.png" class="nut"id="toprightnut"></img>
+            <img src="img/nut.png" class="nut"id="bottomleftnut"></img>
+            <img src="img/nut.png" class="nut"id="bottomrightnut"></img>
+         </div>
+         <img id="leftChain" src="img/chain.png" width="40px"></img>
+         <img id="rightChain" src="img/chain.png" width="40px"></img>
+         <div class="contentbox">
+            <img src="img/nut.png" class="nut"></img>
+            <img src="img/nut.png" class="nut"id="toprightnut"></img>
+            <img src="img/nut.png" class="nut"id="bottomleftnut"></img>
+            <img src="img/nut.png" class="nut"id="bottomrightnut"></img>
+         </div>
+         <img id="leftChain" src="img/chain.png" width="40px"></img>
+         <img id="rightChain" src="img/chain.png" width="40px"></img>
+         <div class="contentbox">
+            <img src="img/nut.png" class="nut"></img>
+            <img src="img/nut.png" class="nut"id="toprightnut"></img>
+            <img src="img/nut.png" class="nut"id="bottomleftnut"></img>
+            <img src="img/nut.png" class="nut"id="bottomrightnut"></img>
+         </div>
+         <img id="leftChain" src="img/chain.png" width="40px"></img>
+         <img id="rightChain" src="img/chain.png" width="40px"></img>
+         <div class="contentbox">
+            <img src="img/nut.png" class="nut"></img>
+            <img src="img/nut.png" class="nut"id="toprightnut"></img>
+            <img src="img/nut.png" class="nut"id="bottomleftnut"></img>
+            <img src="img/nut.png" class="nut"id="bottomrightnut"></img>
+         </div>
+         <img id="leftChain" src="img/chain.png" width="40px"></img>
+         <img id="rightChain" src="img/chain.png" width="40px"></img>
+      </div>
+      <div id="rightColumn">
+         <div id="scroll">
+
+            <img src="img/scroll.png"></img>
+            <h2>Upcoming</h2>
+         </div>
+      </div>
+   </div>
+   
+   
+   <div id="guard">
+    </div>
+	
+	<script>
+//Add your images, we'll set the path in the next step
+    var images = ['ex1.png', 'ex2.png', 'ex3.png', 'ex4.png', 'ex5.png', 'ex6.png', 'ex7.png', 'ex8.png', 'ex9.png', 'ex10.png'];
+    
+    $('<img src="img/' + images[Math.floor(Math.random() * images.length)] + '" style="height: 40vh; width:auto;position:fixed;bottom:0vh; right:0.5vh">').appendTo('#guard');
+</script>
+
+
+</body>
+</html>
